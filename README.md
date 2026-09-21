@@ -1,16 +1,40 @@
-# Scale institutional knowledge using Copilot Spaces
+# OctoAcme Project Management Docs
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+This repository contains the shared process documentation for running OctoAcme cross-functional projects. Use this README as the entry point; the linked documents provide detailed guidance, checklists, templates, and role-specific information.
 
-Hey chantal-gh!
+## How OctoAcme Runs Projects
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+OctoAcme uses a customer-first, iterative, and data-informed approach with clear ownership and a focus on psychological safety. Projects move through a lightweight lifecycle:
 
-Remember, it's self-paced so feel free to take a break! ☕️
+1. **Initiation** — Validate the problem and expected outcome, identify stakeholders, define success metrics, and decide whether to proceed to planning.
+2. **Planning** — Turn the approved initiative into a prioritized backlog, define acceptance criteria and the Definition of Done, estimate work, and align milestones, dependencies, risks, and responsibilities.
+3. **Execution and tracking** — Deliver small increments through the project board and pull request workflow. Use regular standups, delivery syncs, demos, testing, reviews, and risk tracking to maintain progress and transparency.
+4. **Release and deployment** — Confirm acceptance criteria, CI and security checks, release notes, smoke tests, and rollback plans before deploying. Verify the deployment and communicate the release to stakeholders.
+5. **Retrospective and continuous improvement** — Review what went well and what could improve after each sprint, release, milestone, or incident. Track a small number of owned action items and measure their impact.
 
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/chantal-gh/skills-scale-institutional-knowledge-using-copilot-spaces/issues/1)
+### Core Roles
 
----
+- **Project Manager (PM):** Coordinates delivery, schedules, risks, dependencies, communications, and project documentation.
+- **Product Manager (PdM):** Defines outcomes, prioritizes the backlog, and measures customer and business impact.
+- **Developers:** Design, implement, test, review, and document solutions that meet acceptance criteria.
+- **QA/Testing:** Validates quality and feature acceptance through appropriate automated and manual testing.
+- **Stakeholders:** Provide input, context, decisions, and approvals.
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+### Shared Practices
 
+- Maintain a single source of truth for status, risks, dependencies, and decisions.
+- Communicate through agreed cadences, including standups, PM/PdM alignment, delivery syncs, demos, and stakeholder updates.
+- Identify, assess, mitigate, and monitor risks; escalate from the team to the PM, Product Lead, and sponsor when needed.
+- Apply quality practices such as unit and integration tests, end-to-end smoke tests for critical flows, CI, linting, security scanning, and manual QA when appropriate.
+- Capture learnings in retrospectives and convert them into actionable, owned improvements.
+
+## Process Documents
+
+- [Project Management Overview](docs/octoacme-project-management-overview.md) — Principles, roles, lifecycle, artifacts, and communication cadence.
+- [Project Initiation Guide](docs/octoacme-project-initiation.md) — Validate and authorize work, align stakeholders, and prepare the project one-pager.
+- [Project Planning](docs/octoacme-project-planning.md) — Build the backlog, release plan, Definition of Done, and initial risk and dependency plan.
+- [Execution & Tracking](docs/octoacme-execution-and-tracking.md) — Manage day-to-day delivery, quality, progress reporting, metrics, and blocker escalation.
+- [Risk Management & Communication](docs/octoacme-risks-and-communication.md) — Maintain the risk register and communicate status, incidents, and escalations.
+- [Release & Deployment Guide](docs/octoacme-release-and-deployment.md) — Prepare, deploy, verify, communicate, and roll back releases safely.
+- [Retrospective & Continuous Improvement](docs/octoacme-retrospective-and-continuous-improvement.md) — Capture learnings and track improvement actions.
+- [Roles & Personas](docs/octoacme-roles-and-personas.md) — Detailed responsibilities, goals, and communication patterns for common roles.
